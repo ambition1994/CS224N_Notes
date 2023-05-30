@@ -1,0 +1,3 @@
+* RNNs combine the input vector with their state vector with a fixed(but learned) function to produce a new state vector.
+* The takeaway is that even if your data is not in form of sequence, you can still formulate and train powerful model that learn to process it sequentially.
+* However, crucially this output vector's contents are influenced not only by the input you just fed in, but also on the entire history of inputs you've fed in the past.
